@@ -11,7 +11,7 @@ const myPromise = (): Promise<MetadataRoute.Manifest> =>
         background_color: "#ffc0cb",
         display: "standalone",
         orientation: "any",
-        scope: "/demo-manifest",
+        scope: "/",
         start_url: "/demo-bee",
         icons: [
           { src: "/busy-bee-192.png", type: "image/png", sizes: "192x192" },
